@@ -1,0 +1,64 @@
+@import "tailwindcss";
+@plugin "daisyui"{
+  themes: light --default, dark --prefersdark, "cupcake", "retro","bumblebee",
+      "emerald",
+      "corporate",
+      "synthwave",
+      "retro",
+      "cyberpunk",
+      "valentine",
+      "halloween",
+      "garden",
+      "forest",
+      "aqua",
+      "lofi",
+      "pastel",
+      "fantasy",
+      "wireframe",
+      "black",
+      "luxury",
+      "dracula",
+      "cmyk",
+      "autumn",
+      "business",
+      "acid",
+      "lemonade",
+      "night",
+      "coffee",
+      "winter",
+      "dim",
+      "nord",
+      "sunset"
+}
+
+
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+  display: none;
+}
+
+input[type="password"]::-webkit-clear-button,
+input[type="password"]::-webkit-inner-spin-button,
+input[type="password"]::-webkit-password-toggle-button {
+  display: none;
+}
+
+/* Remove the default focus outline */
+.input:focus {
+    outline: none; /* Removes the default browser outline */
+    border: 2px solid #4f46e5; /* Add a custom border color (primary color) */
+    box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.2); /* Add a shadow for better UX */
+  }
+  
+  /* Optional - Customize hover styles */
+  .input:hover {
+    border-color: #6366f1; /* Lighten the border on hover */
+  }
+
+.input {
+    z-index: 1
+}  
+
+.input-icon {
+    z-index: 10;
+}
