@@ -1,9 +1,3 @@
-<p align="center" width="100%">
-    <img height="100" src="https://github.com/Bhavana-Mallineni/your-logo.svg">
-</p>
-
----
-
 # **MERN Chat App – Real-Time Messaging with Socket.io 🚀**
 
 This is a **full-stack chat application** built using **MongoDB, Express.js, React.js, Node.js, and Socket.io**. It enables **real-time messaging** between users with **authentication, notifications, and responsive UI**.
