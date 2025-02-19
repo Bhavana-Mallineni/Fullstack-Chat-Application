@@ -8,7 +8,7 @@
 
 This is a **full-stack chat application** built using **MongoDB, Express.js, React.js, Node.js, and Socket.io**. It enables **real-time messaging** between users with **authentication, notifications, and responsive UI**.
 
-### **🔗 Live Preview:** [Your Deployed App Link](https://your-app-link.onrender.com)
+### **🔗 Live Preview:** [(https://fullstack-chat-application-rp2s.onrender.com/)]((https://fullstack-chat-application-rp2s.onrender.com/))
 
 ---
 
